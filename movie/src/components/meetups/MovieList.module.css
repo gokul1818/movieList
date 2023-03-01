@@ -12,6 +12,8 @@ height: auto;
 .WatchList h1{
 	color: whitesmoke;
 	text-align: center;
+	padding: 10px;
+	font-size: small;
 }
 
 /* 

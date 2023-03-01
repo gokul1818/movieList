@@ -13,7 +13,7 @@ function HomePage(props) {
   const [searchValue, setSearchValue] = useState("");
   console.log(onMovieSelect,'gggg',selectedMovie)
   const getMovieRequest = async (searchValue) => {
-    const url = `http://www.omdbapi.com/?s=${searchValue}&apikey=2e8a25a4`;
+    const url = `https://www.omdbapi.com/?s=${searchValue}&apikey=2e8a25a4`;
     const response = await fetch(url);
     const responseJson = await response.json();
 
