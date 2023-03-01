@@ -1,0 +1,33 @@
+.list {
+  list-style:none;
+  /* margin: 20px; */
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
+width: auto;
+height: auto;
+ padding: 0;
+}
+.WatchList h1{
+	color: whitesmoke;
+	text-align: center;
+}
+
+/* 
+
+.item:hover .overlay {
+	opacity: 1;
+/* background-color: aquamarine; */
+
+/* .overlay {
+	position: absolute;
+	background: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	transition: 0.5s ease;
+	opacity: 0;
+	bottom: 0;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+} */

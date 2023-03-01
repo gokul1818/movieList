@@ -1,0 +1,10 @@
+.card {
+  background-color: #201e2e;
+
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  max-width: 250px;
+  min-width: auto;
+  height: 350px;
+
+}

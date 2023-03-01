@@ -1,0 +1,61 @@
+.details{
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+    padding: 20px 30px;
+    justify-content: center;
+box-shadow: 10px 1px 20px 10px;
+
+}
+.loading{
+    color: aliceblue;
+}
+
+.details img{
+    object-fit: cover;
+    height: 350px;
+}
+.close{
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    background: rgb(255, 255, 255);
+    height: fit-content;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.Title{
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin: 15px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-transform: capitalize;
+    text-overflow: ellipsis;
+  
+}
+.data{
+    font-size: 16px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    margin: 4px 0;
+    text-transform: capitalize;
+    text-overflow: ellipsis;
+    /* display: flex; */
+/* flex-wrap: nowrap; */
+    gap: 20px;
+  
+   /*  */
+}
+.information span{
+    color: rgb(194, 194, 194);
+}

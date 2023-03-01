@@ -1,0 +1,94 @@
+.item {
+  margin: 1rem 0;
+}
+
+.image {
+  width: auto;
+  height: 250px;
+  overflow: hidden;
+  margin: 0;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+.image img {
+  width: 250px;
+  object-fit: cover;
+}
+
+.content {
+
+  padding: 1rem;
+}
+
+.content h3 {
+  font-size: 15px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.actions p {
+  font-weight: 400;
+  font-size: small;
+  color: #ffffff;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.actions {
+  /* padding: 1.5rem; */
+  /* text-align: center; */
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.detail {
+  display: flex;
+  justify-content: flex-start;
+  font-size: small;
+}
+
+.actions .button {
+  /* font: inherit; */
+  cursor: pointer;
+
+  color: #00f6df;
+  border: 1px solid#00f6df;
+  background-color: transparent;
+  padding: 5px 5px;
+  border-radius: 4px;
+}
+
+.actions .button:hover,
+.actions .button:active {
+  background-color: #00f6df;
+  color: #086158;
+}
+
+.item {
+  position: relative;
+  transition: transform 1s;
+}
+
+.item:hover {
+  cursor: pointer;
+  box-shadow: 2px 1px 15px 1px #1f504b ;
+	/* background: rgba(238, 238, 238, 1.8); */
+  transform: scale(1.1);
+  
+}
+
+.type {
+  display: flex;
+  /* flex-wrap: nowrap; */
+  justify-content: space-evenly;
+  gap: 10px;
+  color: aqua;
+}
+.eye:hover,.close:hover{
+  color: #086158;
+}
+.eye:active,.close:active{
+  color: white;
+}
