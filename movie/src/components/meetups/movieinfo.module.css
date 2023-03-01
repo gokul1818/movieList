@@ -1,7 +1,7 @@
 .details{
     display: flex;
     margin: 10px;
-    flex-direction: row;
+    /* flex-direction: column; */
     padding: 20px 30px;
     justify-content: center;
 box-shadow: 10px 1px 20px 10px;
@@ -14,16 +14,24 @@ box-shadow: 10px 1px 20px 10px;
 .details img{
     object-fit: cover;
     height: 350px;
+    width: 200px;
+    display: flex;
+    justify-items: center;
+    /* align-content: center; */
+/* flex-direction: row; */
 }
 .close{
     font-size: 16px;
     font-weight: 600;
-    color: black;
-    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    background: rgb(194, 194, 194);
     height: fit-content;
     padding: 8px;
-    border-radius: 50%;
+    text-align: center;
+    border-radius: 10%;
     cursor: pointer;
+   width:100px ;
+   justify-content: center;
 
 }
 .information{
@@ -38,6 +46,8 @@ box-shadow: 10px 1px 20px 10px;
     margin: 15px 0;
     white-space: nowrap;
     overflow: hidden;
+    display: flex;
+    /* flex-direction: column; */
     text-transform: capitalize;
     text-overflow: ellipsis;
   
@@ -59,3 +69,14 @@ box-shadow: 10px 1px 20px 10px;
 .information span{
     color: rgb(194, 194, 194);
 }
+@media  screen and (max-width:525px) {
+     .details {
+       font-size: 10px;
+       display: flex;
+       flex-direction: column;
+       /* text-align: center; */
+       /* justify-content: center; */
+       align-items: center;
+    }
+    
+  }
